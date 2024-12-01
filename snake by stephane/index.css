@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+#score {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #333;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+canvas {
+    border: 2px solid #333;
+    background-color: #fff;
+}
+h1 {
+    color: rgb(246, 9, 9);
+    justify-self: 10px;
+
+}
